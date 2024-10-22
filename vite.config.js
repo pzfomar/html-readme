@@ -2,6 +2,7 @@ import obfuscatorPlugin from "vite-plugin-javascript-obfuscator";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: '/html-readme/',
   plugins: [
     obfuscatorPlugin({
       include: ["src/main/vanilla/**"],
